@@ -2,6 +2,7 @@
   padding: 0;
   margin: 0;
   text-decoration: 0;
+  color: inherit;
 }
 .button {
   background-color: transparent;
