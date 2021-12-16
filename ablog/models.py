@@ -11,7 +11,7 @@ from ckeditor.fields import RichTextField
 
 class post(models.Model):
     title = models.CharField(max_length=255)
-    header_image = models.CharField(max_length="2038", null=True, blank=True)
+    header_image = models.CharField(max_length=2083, null=True, blank=True)
     author = models.ForeignKey(User, on_delete=models.CASCADE)
     body = RichTextField(blank=True, null=True)
     #body = models.TextField()
