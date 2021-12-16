@@ -48,7 +48,7 @@
           <a href="{% url 'article_detail' post.pk %}" style="text-decoration: none;">
           <div class="card" style="width: 18rem; margin: 10px; justify-content: center;">
                    {% if post.header_image %}
-       <img class="card-img-top" style="width: 100%;" src="{{ post.header_image.url }}" alt="...">
+       <img class="card-img-top" style="width: 100%;" src="{{ post.header_image }}" alt="...">
        {% endif %}
           <div class="card-body">
             <h5 class="card-title">{{ post.title }}</h5>
